@@ -11,7 +11,7 @@
 	<element name="Ring of Respite" type="Magic Item" source="Paradigm Arcanis" id="ID_CUST_RING_RESPITE">
 		<description>
 			<p>Highly prized and very rare, these rings usually appear to be simple charm rings made from bone, carved to resemble a lizard set with hematite eyes biting its own tail</p>
-			<p> If you are reduced to 0 hit points or aresubject to an effect causing instant death while wearing thisring, you are instantly returned to consciousness with 1 hitpoint and teleported to a safe place within 100 feet. If thereis no safe place within range, this effect fails. This abilitycannot be used again until after 7 days have passed.</p>
+			<p>If you are reduced to 0 hit points or aresubject to an effect causing instant death while wearing thisring, you are instantly returned to consciousness with 1 hitpoint and teleported to a safe place within 100 feet. If thereis no safe place within range, this effect fails. This abilitycannot be used again until after 7 days have passed.</p>
 		</description>	
 		<setters>
 			<set name="category">Rings</set>
@@ -24,8 +24,8 @@
 
 	<element name="Ring of Bilocation" type="Magic Item" source="Paradigm Arcanis" id="ID_CUST_RING_BILOCATION">
 		<description>
-			<p>This ring consists of a band of polished gold set with two rubies of equal size and color.l</p>
-			<p> While worn, as an action you may create an illusory double of yourself adjacent to you, dressed and equipped with quasi-real copies of your clothing and equipment. All magical items you are wearing are reproduced on the double as non-magical replicas. The double appears to be the same creature as you but it has half your hit point maximum. Otherwise, the double uses all of your statistics, with adjustments for any loss of benefits from magical items.  While the double is active, you may communicate with it telepathically up to a range of up to 1 mile and it cannot act except by your express command. The double lacks the ability to learn or become more powerful so it can never increase in level or regain expended spell slots.  If the double is damaged, you cannot repair it by any means. While you have an active double you cannot use this ring to create another one. After 6 hours, or if your attunement to the ring ends, the double dissipates into mist and you may not be use this ability again until the following dawn. </p>
+			<p>This ring consists of a band of polished gold set with two rubies of equal size and color.</p>
+			<p>While worn, as an action you may create an illusory double of yourself adjacent to you, dressed and equipped with quasi-real copies of your clothing and equipment. All magical items you are wearing are reproduced on the double as non-magical replicas. The double appears to be the same creature as you but it has half your hit point maximum. Otherwise, the double uses all of your statistics, with adjustments for any loss of benefits from magical items.  While the double is active, you may communicate with it telepathically up to a range of up to 1 mile and it cannot act except by your express command. The double lacks the ability to learn or become more powerful so it can never increase in level or regain expended spell slots.  If the double is damaged, you cannot repair it by any means. While you have an active double you cannot use this ring to create another one. After 6 hours, or if your attunement to the ring ends, the double dissipates into mist and you may not be use this ability again until the following dawn. </p>
 		</description>	
 		<setters>
 			<set name="category">Rings</set>
@@ -60,9 +60,9 @@
 		<description>
 			<p>This staff can be wielded as a magic quarterstaff that grants a +1 bonus to both attack and damage rolls. This staff regains 1d4+1 expended charge daily at midnight. If you ever expend the last charge, roll a d20. On a 1, the staff retains its +1 bonus to attack and damage rolls but loses all other properties until it has sat under the light of Aperio for a full month, at which point it regains 1d4 charges. This staff possesses 10 charges for the following properties:</p>
 			<ul>
-				<li>As Formless as Shadow: As an action you may use 1 charge to cause the staff to dissipate into strands of shadow, reforming into a set of thieves’ tools or a string instrument of dark rosewood. The staff may remain in this form indefinitely until you will it back into a staff as a bonus action or reaction.</li>
-				<li>Haunting Melody: As an action you may use 2 charges to spin this staff around you, causing it to emit a haunting melody. All creatures within 30 feet of you to make a DC 16 Wisdom saving throw or become frightened until the end of their next turn.</li>
-				<li>Spells: While holding the staff, you can use an action to expend 1 or more of its charges to cast one of the following spells, using your spell save DC and spell attack bonus: darkness (2 charges), shadow step (2 charges), and Shadow Bridge (2 charges).</li>
+				<li><strong>As Formless as Shadow</strong>: As an action you may use 1 charge to cause the staff to dissipate into strands of shadow, reforming into a set of thieves’ tools or a string instrument of dark rosewood. The staff may remain in this form indefinitely until you will it back into a staff as a bonus action or reaction.</li>
+				<li><strong>Haunting Melody</strong>: As an action you may use 2 charges to spin this staff around you, causing it to emit a haunting melody. All creatures within 30 feet of you to make a DC 16 Wisdom saving throw or become frightened until the end of their next turn.</li>
+				<li><strong>Spells</strong>: While holding the staff, you can use an action to expend 1 or more of its charges to cast one of the following spells, using your spell save DC and spell attack bonus:<ul><li>Darkness (2 charges)</li><li>Shadow Step (2 charges)</li><li>Shadow Bridge (2 charges).</li></ul></li>
 			</ul>
 		</description>	
 		<setters>
