@@ -4,7 +4,7 @@
 		<name>Caerodor Trove</name>
 		<description>Custom Content for 5e</description>
 		<author url="">Custom Content</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="caerodorTrove.index" url="https://raw.githubusercontent.com/ifiszer/caerodorTrove/master/caerodorTrove.index" />
 		</update>
 	</info>
