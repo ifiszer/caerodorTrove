@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Custom Items</name>
+		<description></description>	
+		<update version="0.0.2">
+			<file name="custom.xml" url="" />
+		</update>	
+	</info>
+
+	<element name="Ring of Respite" type="Magic Item" source="Paradigm Arcanis" id="ID_CUST_RING_RESPITE">
+		<description>
+			<p>Highly prized and very rare, these rings usually appear to be simple charm rings made from bone, carved to resemble a lizard set with hematite eyes biting its own tail</p>
+			<p> If you are reduced to 0 hit points or aresubject to an effect causing instant death while wearing thisring, you are instantly returned to consciousness with 1 hitpoint and teleported to a safe place within 100 feet. If thereis no safe place within range, this effect fails. This abilitycannot be used again until after 7 days have passed.</p>
+		</description>	
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Very rare</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+		</setters>	
+	</element>
+
+	<element name="Ring of Bilocation" type="Magic Item" source="Paradigm Arcanis" id="ID_CUST_RING_BILOCATION">
+		<description>
+			<p>This ring consists of a band of polished gold set with two rubies of equal size and color.l</p>
+			<p> While worn, as an action you may create an illusory double of yourself adjacent to you, dressed and equipped with quasi-real copies of your clothing and equipment. All magical items you are wearing are reproduced on the double as non-magical replicas. The double appears to be the same creature as you but it has half your hit point maximum. Otherwise, the double uses all of your statistics, with adjustments for any loss of benefits from magical items.  While the double is active, you may communicate with it telepathically up to a range of up to 1 mile and it cannot act except by your express command. The double lacks the ability to learn or become more powerful so it can never increase in level or regain expended spell slots.  If the double is damaged, you cannot repair it by any means. While you have an active double you cannot use this ring to create another one. After 6 hours, or if your attunement to the ring ends, the double dissipates into mist and you may not be use this ability again until the following dawn. </p>
+		</description>	
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Legendary</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">true</set>
+		</setters>	
+	</element>
+
+	<element name="Robe of Shadowshaping" type="Magic Item" source="Paradigm Arcanis" id="ID_CUST_ROBE_SHADOWSHAPING">
+		<description>
+			<p>While this robe is worn you possesses darkvision out to a range of 60 feet. If you already have darkvision, your range is increased by 60 feet. This robe has 3 charges which you can expend for the abilities below. The robe regains 1d3 charges daily at midnight. If you expend the robe’s last charge, roll a d20. On a roll of 1, the robe loses all magical properties until it is kept undisturbed in an area of dim illumination for 24 continuous hours, after which it regains 1 charge.</p>
+			<ul>
+				<li> Shadow’s Embrace: While in complete darkness, you may use a bonus action and expend 1 charge to become one with the shadows, effectively becoming invisible for 1 hour. Anything you wear or carry is invisible with you. The effect ends early if you attack or cast a spell. </li>
+				<li>Shadow Step: As a bonus action you can expend 1 charge to cast shadow step.</li>
+				<li>Shadow Servants: As an action you may expend 2 charges to summon 2 shadows. These shadows do not have the ability to create new shadows and remain for 1 minute or until they are reduced to 0 hit points. The shadows are under your control and are friendly to you and your companions. If you do not issue any commands to them, they defend themselves from hostile creatures, but otherwise do nothing.</li>
+			</ul>
+		</description>	
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Items</set>
+			<set name="rarity">Legendary</set>
+			<set name="slot">shoulders</set>
+			<set name="equippable">true</set>
+			<set name="attunement">true</set>
+		</setters>	
+	</element>
+
+	<element name="Runestaff of Umbra" type="Magic Item" source="Paradigm Arcanis" id="ID_CUST_RUNESTAFF_UMBRA">
+		<description>
+			<p>This staff can be wielded as a magic quarterstaff that grants a +1 bonus to both attack and damage rolls. This staff regains 1d4+1 expended charge daily at midnight. If you ever expend the last charge, roll a d20. On a 1, the staff retains its +1 bonus to attack and damage rolls but loses all other properties until it has sat under the light of Aperio for a full month, at which point it regains 1d4 charges. This staff possesses 10 charges for the following properties:</p>
+			<ul>
+				<li>As Formless as Shadow: As an action you may use 1 charge to cause the staff to dissipate into strands of shadow, reforming into a set of thieves’ tools or a string instrument of dark rosewood. The staff may remain in this form indefinitely until you will it back into a staff as a bonus action or reaction.</li>
+				<li>Haunting Melody: As an action you may use 2 charges to spin this staff around you, causing it to emit a haunting melody. All creatures within 30 feet of you to make a DC 16 Wisdom saving throw or become frightened until the end of their next turn.</li>
+				<li>Spells: While holding the staff, you can use an action to expend 1 or more of its charges to cast one of the following spells, using your spell save DC and spell attack bonus: darkness (2 charges), shadow step (2 charges), and Shadow Bridge (2 charges).</li>
+			</ul>
+		</description>	
+		<setters>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="type">Staff</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+		</setters>
+	</element>
+
+	<element name="Aros’ Unforgettable Mark" type="Magic Item" source="Paradigm Arcanis" id="ID_CUST_AROS_MARK">
+		<description>
+			<p> These small rectangular bookmarks are crafted from the tanned wings of a bat and embossed ingold-leaf with an arcane glyph.</p>			
+			<p> When you place this bookmark within a book, you can easily recall information from its pages. You have advantage on Intelligence checks relating to the subject matter of the tome in which the bookmark is placed. This bonus is granted so long as you and the book and are on the same plane. You can only benefit from one Aros’ unforgettable mark at a time; you are always connected to the most recent bookmark you placed in a book</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<element name="Olymed’s Armband of Ever-Ready Blades" type="Magic Item" source="Paradigm Arcanis" id="ID_CUST_OLYMED_ARMBAND_BLADES">
+		<description>
+			<p> When worn, as an action you can transform any weapon you hold with a weight of 20 lbs. or less into a small charm which hangs upon this armband. While in this form, any ability that weapon possesses is inactive. Up to 6 weapons may be stored this way, and weapons with ammunition share a slot with their ammunition, such as a bow and a quiver of arrows. You can summon a stored weapon back to your hands as a bonus action, with ammunition appearing either on you or next to you.</p>
+			<p> If the armband is targeted by a dispel magic spell, all the weapons that are charms instantly appear at your feet. If the armband is ever destroyed, roll a d4 for each weapon. On a 1 that weapon is destroyed. On any other result the weapon appears at your feet</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+
+	<element name="Earring of Awareness" type="Magic Item" source="Paradigm Arcanis" id="ID_CUST_EARRING_AWARENESS">
+		<description>
+			<p> While this earring is worn you gain advantage on all Wisdom (Perception) checks dependent upon hearing.</p>
+			<p> As an action, you may focus your hearing on a particular spot you can clearly see within 30 feet. You can hear anything that would be audible from that spot as if you were physically there. While focusing on this spot, you suffer a -5 penalty to your passive Perception and disadvantage to all Wisdom (Perception) checks on anything that is not specific to the area you are attempting to listen to. You can focus your hearing for up to 10 minutes. Once used, this ability may not be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+
+	<element name="Gloves of Shadow Storage" type="Magic Item" source="Paradigm Arcanis" id="ID_CUST_GLOVES_SHADOW_STORAGE">
+		<description>
+			<p> These unremarkable gloves appear to be just other pair of well-worn gloves, except for the inner lining of the palm upon which is inscribed a unique glyph.</p>
+			<p> While worn, as a bonus action you can store any item with a weight of up to 10 pounds in a small pocket in the Shadow Plane. You can retrieve this item with another bonus action. Each glove can only hold 1 item at a time. Due to the way these gloves store their items, these gloves may be safely transported through Ansharan portals or even stored extra dimensional spaces such as a bag of holding.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="slot">hands</set>
+		</setters>
+	</element>
+
+	<element name="Magician's Judge" type="Magic Item" source="Custom" id="ID_CUST_MAGICIANS_JUDGE">
+		<description>
+			<p>+1 attack, 2d6 damage</p>
+			<p>You can cast Dispel Magic once per day</p>
+		</description>
+		<setters>
+			<set name="keywords">any sword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any sword">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+		</setters>
+	</element>
+
+	<element name="Xornblood" type="Magic Item" source="Custom" id="ID_CUST_XORNBLOOD">
+		<description>
+			<p>+1 attack, 1d10+1 damage</p>
+			<p>The head of this halberd is held to the shaft by a raw pinkish crystal which seems to have grown from the tip of the shaft and over the head.</p>
+			<p>It deals 2d6 extra damage to earth elementals and similar creatures</p>
+		</description>
+		<setters>
+			<set name="keywords">any</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="halberd">Weapon</set>
+			<set name="weapon">Halberd</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+		</setters>
+	</element>
+
+	<element name="Arctic Maul" type="Magic Item" source="Custom" id="ID_CUST_ARCTIC_MAUL">
+		<description>
+			<p>+3 attack, 2d6 + (3d6 cold) damage</p>
+			<p>Arctic Maul is a massive hammer seemingly made of Ice, crafted by Flint king of the Dwarves. It's massive head has one side ending in small icicles and the other in big conic tip.</p>
+			<p>It provides the following effects:</p>
+			<ul>
+				<li>+3 to attack rolls and +3d6 cold damage</li>
+				<li>It emits blue light to 30ft</li>
+				<li>On a crit the target has to make a DC17 STR save or be knocked prone</li>
+				<li>You can use 1 action to cause enemies in a 15ft cone 5d6 cold damage. A DC17 DES save halves the damage.</li>
+				<li>Enemies killed by Arctic Maul freeze and then crack into pieces</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">maul</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="maul">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="attunement">true</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_MAULS</set>
+		</setters>
+	</element>
+
+	<element name="Staff of Conflict" type="Magic Item" source="Custom" id="ID_CUST_STAFF_CONFLICT">
+		<description>
+			<p>The staff has 12 charges:</p>
+			<ul>
+				<li>Witchbolt (1 charge)</li>
+				<li>Bestow Curse (3 charges)</li>
+				<li>Blight(4 charges)</li>
+				<li>Contact Other Plane (5 charges)</li>
+			</ul>
+			<p class="indent">Whenever you cast a spell that deals ice, lightning or necrotic damage and you roll a 1  on a damage die, you can reroll that die and must use the second roll.</p>
+			<p class="indent">The staff regains 1d6 + 2 expended charges daily at dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">bard, cleric, druid, sorcerer, warlock, wizard</set>
+			<set name="category">Staffs</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="type">Staff</set>
+			<set name="attunement" addition="by a bard, cleric, druid, sorcerer, warlock, or wizard">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+		</setters>
+	</element>
+
+	<element name="Contract Killer" type="Class Feature" source="Forgotten Secrets" id="ID_CUST_ELDRITCH_INVOCATION_CONTRACT_KILLER">
+    	<supports>Eldritch Invocation</supports>
+    	<prerequisite>Pact of the Tome, Currency Conspiracy Patron</prerequisite>
+    	<requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME</requirements>
+	    <description>
+	      <p>During a short or long rest, you can summon a contract detailing any agreement filled with your exact stipulations and requests. Any creature that signs the contract is bound by an obligation to fulfill the terms of the agreement for as long as the contract exists or until the terms are completed. If you break the agreement, you lose Gilt equal to three times your  31 character level. If the amount lost is higher than your current total, you suffer force damage equal to twice the difference. If a creature other than you breaks the agreement, you can choose to spend an amount of Gilt equal to or less than five times your warlock level, dealing force damage equal to the amount spent to all offending parties. Once you either break the contract or inflict damage using this feature, the contract is destroyed and can no longer be enforced. You can have a maximum number of contracts in existence at one time equal to your Charisma modifier.</p>
+	    </description>
+  </element>
+
+  <element name="Open Eyes" type="Class Feature" source="Forgotten Secrets" id="ID_CUST_ELDRITCH_INVOCATION_OPEN_EYES">
+    	<supports>Eldritch Invocation</supports>
+    	<prerequisite>Currency Conspiracy Patron</prerequisite>
+    	<requirements>[level:7]</requirements>
+	    <description>
+	      <p>Whenever you make a weapon attack or cast a cantrip that deals damage, you can use your bonus action to spend an amount of Gilt equal to or less than your warlock level to overwhelm the mind of your target with the truth of the Conspiracy. The target must make a Charisma saving throw against your warlock spell save DC. If they fail, they take psychic damage equal to half the amount of Gilt spent and can’t take reactions until the start of your next turn.</p>
+	    </description>
+  </element>
+
+  <element name="Programmed Illusion" type="Spell" source="Player’s Handbook" id="ID_CUST_SPELL_PROGRAMMED_ILLUSION">
+    <supports>Sorcerer</supports>
+    <description>
+      <p>You create an illusion of an object, a creature, or some other visible phenomenon within range that activates when a specific condition occurs. The illusion is imperceptible until then. It must be no larger than a 30-foot cube, and you decide when you cast the spell how the illusion behaves and what sounds it makes. This scripted performance can last up to 5 minutes. When the condition you specify occurs, the illusion springs into existence and performs in the manner you described. Once the illusion finishes performing, it disappears and remains dormant for 10 minutes. After this time, the illusion can be activated again. The triggering condition can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the area. For example, you could create an illusion of yourself to appear and warn off others who attempt to open a trapped door, or you could set the illusion to trigger only when a creature says the correct word or phrase. Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">6</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">Until dispelled</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a bit of fleece and jade dust worth at least 25 gp</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Phantasmal Killer" type="Spell" source="Player’s Handbook" id="ID_CUST_SPELL_PHANTASMAL_KILLER">
+    <supports>Sorcerer</supports>
+    <description>
+      <p>You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a Wisdom saving throw. On a failed save, the target becomes frightened for the duration. At the end of each of the target’s turns before the spell ends, the target must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.</p>
+    </description>
+    <setters>
+      <set name="keywords">psychic</set>
+      <set name="level">4</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Hallucinatory Terrain" type="Spell" source="Player’s Handbook" id="ID_CUST_SPELL_HALLUCINATORY_TERRAIN">
+    <supports>Sorcerer</supports>
+    <description>
+      <p>You make natural terrain in a 150-foot cube in range look, sound, and smell like some other sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren’t changed in appearance. The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn’t obvious by touch, a creature carefully examining the illusion can attempt an Intelligence (Investigation) check against your spell save DC to disbelieve it. A creature who discerns the illusion for what it is, sees it as a vague image superimposed on the terrain.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Illusion</set>
+      <set name="time">10 minutes</set>
+      <set name="duration">24 hours</set>
+      <set name="range">300 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a stone, a twig, and a bit of green plant</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+</elements>
