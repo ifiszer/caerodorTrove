@@ -3,7 +3,7 @@
 	<info>
 		<name>Custom Items</name>
 		<description></description>	
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="custom.xml" url="https://raw.githubusercontent.com/ifiszer/caerodorTrove/master/custom.xml" />
 		</update>	
 	</info>
@@ -59,10 +59,10 @@
 	<element name="Runestaff of Umbra" type="Magic Item" source="Paradigm Arcanis" id="ID_CUST_RUNESTAFF_UMBRA">
 		<description>
 			<p>This staff can be wielded as a magic quarterstaff that grants a +1 bonus to both attack and damage rolls. This staff regains 1d4+1 expended charge daily at midnight. If you ever expend the last charge, roll a d20. On a 1, the staff retains its +1 bonus to attack and damage rolls but loses all other properties until it has sat under the light of Aperio for a full month, at which point it regains 1d4 charges. This staff possesses 10 charges for the following properties:</p>
-			<ul>
-				<li><strong>As Formless as Shadow</strong>: As an action you may use 1 charge to cause the staff to dissipate into strands of shadow, reforming into a set of thieves’ tools or a string instrument of dark rosewood. The staff may remain in this form indefinitely until you will it back into a staff as a bonus action or reaction.</li>
-				<li><strong>Haunting Melody</strong>: As an action you may use 2 charges to spin this staff around you, causing it to emit a haunting melody. All creatures within 30 feet of you to make a DC 16 Wisdom saving throw or become frightened until the end of their next turn.</li>
-				<li><strong>Spells</strong>: While holding the staff, you can use an action to expend 1 or more of its charges to cast one of the following spells, using your spell save DC and spell attack bonus:<ul><li>Darkness (2 charges)</li><li>Shadow Step (2 charges)</li><li>Shadow Bridge (2 charges).</li></ul></li>
+			<ul class="indent">
+				<li>As Formless as Shadow: As an action you may use 1 charge to cause the staff to dissipate into strands of shadow, reforming into a set of thieves’ tools or a string instrument of dark rosewood. The staff may remain in this form indefinitely until you will it back into a staff as a bonus action or reaction.</li>
+				<li>Haunting Melody: As an action you may use 2 charges to spin this staff around you, causing it to emit a haunting melody. All creatures within 30 feet of you to make a DC 16 Wisdom saving throw or become frightened until the end of their next turn.</li>
+				<li>Spells: While holding the staff, you can use an action to expend 1 or more of its charges to cast one of the following spells, using your spell save DC and spell attack bonus: Darkness (2 charges), Shadow Step (2 charges) and Shadow Bridge (2 charges).</li>
 			</ul>
 		</description>	
 		<setters>
