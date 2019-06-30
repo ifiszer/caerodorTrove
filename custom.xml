@@ -3,7 +3,7 @@
 	<info>
 		<name>Custom Items</name>
 		<description></description>	
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="custom.xml" url="https://raw.githubusercontent.com/ifiszer/caerodorTrove/master/custom.xml" />
 		</update>	
 	</info>
@@ -41,9 +41,9 @@
 		<description>
 			<p>While this robe is worn you possesses darkvision out to a range of 60 feet. If you already have darkvision, your range is increased by 60 feet. This robe has 3 charges which you can expend for the abilities below. The robe regains 1d3 charges daily at midnight. If you expend the robe’s last charge, roll a d20. On a roll of 1, the robe loses all magical properties until it is kept undisturbed in an area of dim illumination for 24 continuous hours, after which it regains 1 charge.</p>
 			<ul>
-				<li><em>Shadow’s Embrace</em>: While in complete darkness, you may use a bonus action and expend 1 charge to become one with the shadows, effectively becoming invisible for 1 hour. Anything you wear or carry is invisible with you. The effect ends early if you attack or cast a spell. </li>
-				<li><em>Shadow Step</em>: As a bonus action you can expend 1 charge to cast shadow step.</li>
-				<li><em>Shadow Servants</em>: As an action you may expend 2 charges to summon 2 shadows. These shadows do not have the ability to create new shadows and remain for 1 minute or until they are reduced to 0 hit points. The shadows are under your control and are friendly to you and your companions. If you do not issue any commands to them, they defend themselves from hostile creatures, but otherwise do nothing.</li>
+				<li>Shadow’s Embrace: While in complete darkness, you may use a bonus action and expend 1 charge to become one with the shadows, effectively becoming invisible for 1 hour. Anything you wear or carry is invisible with you. The effect ends early if you attack or cast a spell. </li>
+				<li>Shadow Step: As a bonus action you can expend 1 charge to cast shadow step.</li>
+				<li>Shadow Servants: As an action you may expend 2 charges to summon 2 shadows. These shadows do not have the ability to create new shadows and remain for 1 minute or until they are reduced to 0 hit points. The shadows are under your control and are friendly to you and your companions. If you do not issue any commands to them, they defend themselves from hostile creatures, but otherwise do nothing.</li>
 			</ul>
 		</description>	
 		<setters>
