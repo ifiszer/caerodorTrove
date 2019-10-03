@@ -3,7 +3,7 @@
 	<info>
 		<name>Custom Items</name>
 		<description></description>	
-		<update version="0.0.7">
+		<update version="0.0.9">
 			<file name="custom.xml" url="https://raw.githubusercontent.com/ifiszer/caerodorTrove/master/custom.xml" />
 		</update>	
 	</info>
@@ -102,7 +102,7 @@
 			<p>It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit an undead using this weapon, it deals an extra 2d8 radiand damage or, if the target is a giant, 2d8 damage. Immediately after the attack, the weapon flies back to your hand.</p>
 		</description>	
 		<setters>
-			<set name="category">Daggers</set>
+			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="4">1 lb.</set>
 			<set name="enhancement">1</set>
@@ -113,7 +113,7 @@
 		</setters>
 	</element>
 	
-	<element name="Gas Mask" type="Magic Item" source="Horacio's Workshopm" id="ID_CUST_GAS_MASK">
+	<element name="Gas Mask" type="Magic Item" source="Horacio’s Workshop" id="ID_CUST_GAS_MASK">
 		<description>
 			<p> This leather gas masked created by the halfling inventor Horacio provides it's wearer with advantage on checks made against breathing effects</p>
 		</description>
@@ -124,7 +124,7 @@
 		</setters>
 	</element>
 	
-	<element name="Tactical Harness" type="Magic Item" source="Horacio's Workshop" id="ID_CUST_TACTICAL_HARNESS">
+	<element name="Tactical Harness" type="Magic Item" source="Horacio’s Workshop" id="ID_CUST_TACTICAL_HARNESS">
 		<description>
 			<p>This scope and lens created by the halfling inventor Horacio provides it's wearer with advantage on a ranged attack if they first use a full round action scoping it</p>
 		</description>
@@ -135,7 +135,7 @@
 		</setters>
 	</element>
 	
-	<element name="Eagle Eye" type="Magic Item" source="Horacio's Workshop" id="ID_CUST_TACTICAL_HARNESS">
+	<element name="Eagle Eye" type="Magic Item" source="Horacio’s Workshop" id="ID_CUST_TACTICAL_HARNESS">
 		<description>
 			<p>This leather harness created by the halfling inventor Horacio provides it's wearer with advantage on checks made when climbing down as it supports it's wearer and gives many point on which to fix ropes and tools</p>
 		</description>
