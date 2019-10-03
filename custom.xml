@@ -3,7 +3,7 @@
 	<info>
 		<name>Custom Items</name>
 		<description></description>	
-		<update version="0.0.10">
+		<update version="0.1.0">
 			<file name="custom.xml" url="https://raw.githubusercontent.com/ifiszer/caerodorTrove/master/custom.xml" />
 		</update>	
 	</info>
@@ -106,7 +106,7 @@
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="4">1 lb.</set>
 			<set name="enhancement">1</set>
-			<set name="type">Dagger</set>
+			<set name="type" addition="dagger">Weapon</set>
 			<set name="rarity">Very Rare</set>
 			<set name="slot">onehand</set>
 			<set name="weapon">Dagger</set>
