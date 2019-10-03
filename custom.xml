@@ -3,7 +3,7 @@
 	<info>
 		<name>Custom Items</name>
 		<description></description>	
-		<update version="0.0.9">
+		<update version="0.0.10">
 			<file name="custom.xml" url="https://raw.githubusercontent.com/ifiszer/caerodorTrove/master/custom.xml" />
 		</update>	
 	</info>
@@ -135,7 +135,7 @@
 		</setters>
 	</element>
 	
-	<element name="Eagle Eye" type="Magic Item" source="Horacio’s Workshop" id="ID_CUST_TACTICAL_HARNESS">
+	<element name="Eagle Eye" type="Magic Item" source="Horacio’s Workshop" id="ID_CUST_EAGLE_EYE">
 		<description>
 			<p>This leather harness created by the halfling inventor Horacio provides it's wearer with advantage on checks made when climbing down as it supports it's wearer and gives many point on which to fix ropes and tools</p>
 		</description>
