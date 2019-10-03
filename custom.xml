@@ -3,7 +3,7 @@
 	<info>
 		<name>Custom Items</name>
 		<description></description>	
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="custom.xml" url="https://raw.githubusercontent.com/ifiszer/caerodorTrove/master/custom.xml" />
 		</update>	
 	</info>
@@ -74,6 +74,75 @@
 			<set name="rarity">Very Rare</set>
 			<set name="slot">onehand</set>
 			<set name="weapon">Quarterstaff</set>
+		</setters>
+	</element>
+	
+	<element name="Dwarven Scout Extensible Pole" type="Magic Item" source="Custom" id="ID_CUST_DWARVEN_EXTENSIBLE_POLE">
+		<description>
+			<p>This extensible pole created by the dwarves is a signature item of Dwarven Scouts. With a Bonus Action it can collapse into a short baton or extend into a quarterstaff and provides the following benefits:</p>
+			<ul class="indent">
+				<li>Advantage on check when exploring caves and tunnels</li>
+				<li>Bonus Action: if you extend the pole during your attack you can add 1d4 to the attack roll</li>				
+			</ul>
+		</description>	
+		<setters>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="type">Staff</set>
+			<set name="rarity">Very Rare</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+		</setters>
+	</element>
+	
+	<element name="Undead Bane Returning Dagger" type="Magic Item" source="Custom" id="ID_CUST_UNDEAD_BANE_RETURNING_DAGGER">
+		<description>
+			<p>This dagger smells subtly of incense when unsheathed. Light and well balanced despite it's curvy asymetric figure, it feel warm and comfortable to the touch like holding a bundle of feathers instead of metal. When striking the undead a white light shines for an instant as if the dagger rejoiced</p>
+			<p>It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit an undead using this weapon, it deals an extra 2d8 radiand damage or, if the target is a giant, 2d8 damage. Immediately after the attack, the weapon flies back to your hand.</p>
+		</description>	
+		<setters>
+			<set name="category">Daggers</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">1 lb.</set>
+			<set name="enhancement">1</set>
+			<set name="type">Dagger</set>
+			<set name="rarity">Very Rare</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Dagger</set>
+		</setters>
+	</element>
+	
+	<element name="Gas Mask" type="Magic Item" source="Horacio's Workshopm" id="ID_CUST_GAS_MASK">
+		<description>
+			<p> This leather gas masked created by the halfling inventor Horacio provides it's wearer with advantage on checks made against breathing effects</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	
+	<element name="Tactical Harness" type="Magic Item" source="Horacio's Workshop" id="ID_CUST_TACTICAL_HARNESS">
+		<description>
+			<p>This scope and lens created by the halfling inventor Horacio provides it's wearer with advantage on a ranged attack if they first use a full round action scoping it</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	
+	<element name="Eagle Eye" type="Magic Item" source="Horacio's Workshop" id="ID_CUST_TACTICAL_HARNESS">
+		<description>
+			<p>This leather harness created by the halfling inventor Horacio provides it's wearer with advantage on checks made when climbing down as it supports it's wearer and gives many point on which to fix ropes and tools</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
 
