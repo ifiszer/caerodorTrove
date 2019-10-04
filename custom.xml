@@ -3,7 +3,7 @@
 	<info>
 		<name>Custom Items</name>
 		<description></description>	
-		<update version="0.1.1">
+		<update version="0.2.0">
 			<file name="custom.xml" url="https://raw.githubusercontent.com/ifiszer/caerodorTrove/master/custom.xml" />
 		</update>	
 	</info>
@@ -113,9 +113,164 @@
 		</setters>
 	</element>
 	
+	<element name="Web Cube" type="Magic Item" source="Horacio’s Workshop" id="ID_CUST_WEB_CUBE">
+		<description>
+			<p>The small metal cube designed by the halfling inventor Horacio replicates the effect of the Web Spell by exploding into sticky threads. If the terrain allows for it like having columns, trees and other vertical anchor points the area becomes cubic, otherwise it's flat and 5 feet tall.</p>
+			<p>The web is difficult terrain for the duration and obscures the covered terrain. Any creature starting it's turn or entering the area makes a DC16 DEX Saving Throw or be restrained. A restrained creature can use it's action to make a STR Check against the same DC to free itself.</p>
+			<p>Quality characteristics:</p>
+			<ul>
+				<li>Prototype: Use as Action, range 10/20, area 10 feet cube</li>
+				<li>Finished: Use as Action, range 15/25, area 15 feet cube</li>
+				<li>Masterwork: Use as Bonus, range 20/30, area 20 feet cube. Threads become flammable, they consume at a rate of one 5 feet cube per round after being lit, causing 2d4 fire damage to creatures exposed to it.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<element name="Singing Slinky" type="Magic Item" source="Horacio’s Workshop" id="ID_CUST_SINGING_SLINKY">
+		<description>
+			<p>This metallic spring was created by the halfling inventor Horacio, it is comprised of a tightly wound, flexible metal spring than has adhesive tips making it easy to stick it to any surface.</p>
+			<p>It can be laid in a line as a full round action, setting the trap active. Creatures starting their turn or moving through the area of the slinky must make a DC16 DEX Saving Throw or fall prone. The slinky can be detected by an succesful check based on it's quality, or a passive perception based on the same DC+2</p>
+			<p>Quality characteristics:</p>
+			<ul>
+				<li>Prototype: Detection DC 10, range 10 feet line, creatures with no darkvision have disadvantage to detect it in heavily obscure areas</li>
+				<li>Finished: Detection DC 14, range 15 feet line, all creatures have disadvantage to detect it in heavily obscure areas</li>
+				<li>Masterwork: Detection DC 16, range 20 feet line, all creatures have disadvantage to detect it in heavily obscure areas</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">30</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<element name="Special Smoke Bomb" type="Magic Item" source="Horacio’s Workshop" id="ID_CUST_SPECIAL_SMOKE_BOMB">
+		<description>
+			<p>This metallic sphere is an invention by the halfling Horacio, it's a two chamber sphere containing flint enough to light the mix of herbs in it's interior. To activate you spin both halves in opposite directions causing the flint to ignite the poisonous mix, which is released in the form of a dense smoke.</p>
+			<p>The area covered in the smoke is heavily obscured. A creature starting it's turn or entering the area must make a DC16 CON Saving Throw or be poisoned.</p>
+			<p>Quality characteristics:</p>
+			<ul>
+				<li>Prototype: Action to Use, range 10/20, area 10x5 feet cube, Poison lasts for 1 minute and the creature can save at the end of each turn becoming immune for 24 hours on a succesful save, Light wind (Gust, lvl 0 Cantrip) disperses the poison.</li>
+				<li>Finished: Action to Use, range 15/25, area 15x5 feet cube, additionally poisoned creatures take 1d4 poison damage at the start of turn.</li>
+				<li>Masterwork: Bonus to Use, range 20/30, area 20x5 feet cube, Poison lasts for 1 hour, additionally the creature vomits and coughs uncontrollable and takes 2d8 posion damage on a failed save, Moderate wind (Gust of wind, lvl 2 Spell) disperses the poison.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<element name="Iron Flower" type="Magic Item" source="Horacio’s Workshop" id="ID_CUST_IRON_FLOWER">
+		<description>
+			<p>This metallic flower is an invention by the halfling Horacio, half looking like a flower and half looking like a toy top, each of it's petals is actually a razor sharp blade that is shot out of it when it's ballbearing center is sent spinning.</p>
+			<p>All creatures in the area of effect must make DC16 DEX Saving Throw or take damage</p>
+			<p>Quality characteristics:</p>
+			<ul>
+				<li>Prototype: Action to Use, range 10/20, area 5 feet cube, 2d4 slashing damage.</li>
+				<li>Finished: Action to Use, range 15/25, area 5 feet cube, 3d4 slashing damage.</li>
+				<li>Masterwork: Bonus to Use, range 20/30, area 10x5 feet cube, 4d4 slashing damage.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">150</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<element name="Pig Tail Arrow" type="Item" source="Horacio’s Workshop" id="ID_CUST_PIG_TAIL_ARROW">
+		<description>
+			<p>A spiral arrow design created by Horacio, it deals extra damage on hit and has to be removed with a DC10 Medicine check, on a failed check the target also takes the extra damage as bleeding over 1d4 turns</p>
+			<p>Quality characteristics:</p>
+		<ul>
+			<li>Prototype: 1d4 damage</li>
+			<li>Finished: 1d6 damage</li>
+			<li>Masterwork: 1d8 damage</li>
+		</ul>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="sp">10</set>
+			<set name="weight" lb="0.05">1/20 lb.</set>
+			<set name="type">Ammunition</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Syringe Arrow" type="Item" source="Horacio’s Workshop" id="ID_CUST_SYRINGE_ARROW">
+		<description>
+			<p>A poison carrying arrow designed by Horacio, the quality changes de design significantly</p>
+			<p>Quality characteristics:</p>
+		<ul>
+			<li>Prototype: Poison lasts 1 week before drying, arrow always deals 1+DEX dmg unmodified by the weapon. The arrow has a split head with two sharp prongs, between them rests a small leather sack with the poison.</li>
+			<li>Finished: Poison lasts 1 month before drying, arrow always deals 1d4+DEX dmg unmodified by the weapon. The arrow head is a single piece hollow tube with a cork behind to load it and designed so the front breaks on penetration delivering the contents.</li>
+			<li>Masterwork: Poison doesn't dry, arrow deals weapon damage. The arrow head is made of crystal, not only delivering the poison deeper into the victim but causing significant damage.</li>
+		</ul>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="sp">20</set>
+			<set name="weight" lb="0.05">1/20 lb.</set>
+			<set name="type">Ammunition</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Sticking Arrow" type="Item" source="Horacio’s Workshop" id="ID_CUST_STICKING_ARROW">
+		<description>
+			<p>This arrow unlike any other has a spherical head which can be split into two, revealing a flat top covered with a concentrated version of the Web Cube contents. Designed by Horacio to allow adventurers to create handles and load bearing points.</p>
+			<p>The arrows are safe up to their load capacity, and fall if they go above the overload capacity. While between the two roll 1d20 and the arrow falls on a result of 10 or lower.</p>
+			<p>Quality characteristics:</p>
+		<ul>
+			<li>Prototype: Load 100kg, Overload 120kg</li>
+			<li>Finished: Load 150kg, Overload 170kg</li>
+			<li>Masterwork: Load 200kg, Overload 220kg</li>
+		</ul>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="weight" lb="0.05">1/20 lb.</set>
+			<set name="type">Ammunition</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	
 	<element name="Gas Mask" type="Magic Item" source="Horacio’s Workshop" id="ID_CUST_GAS_MASK">
 		<description>
-			<p> This leather gas masked created by the halfling inventor Horacio provides it's wearer with advantage on checks made against breathing effects</p>
+			<p>This leather gas masked created by the halfling inventor Horacio, it covers the lower half of the mouth and and nose. Higher qualities also cover the eyes without obscuring vision</p>
+			<p>Quality characteristics:</p>
+			<ul>
+				<li>Prototype: Advantage vs breathing effects</li>
+				<li>Finished: In addition it provides resistance to Acid and Poison damage caused by breathing</li>
+				<li>Masterwork: Immunity to breathing effects, and Acid or Poison damage caused by breathing</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>	
+	
+	<element name="Eagle Eye" type="Magic Item" source="Horacio’s Workshop" id="ID_CUST_EAGLE_EYE">
+		<description>
+			<p>This scope and lens created by the halfling inventor Horacio. It's a complex set of lenses and scopes that allows the wearer to clearly measure the position of distant objects and creatures, giving them advantage on their next ranged attack if they take the time to use it.</p>
+			<p>Quality characteristics:</p>
+			<ul>
+				<li>Prototype: Full Round to use</li>
+				<li>Finished: Full Round to use</li>
+				<li>Masterwork: Action to use</li>
+			</ul>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -126,18 +281,13 @@
 	
 	<element name="Tactical Harness" type="Magic Item" source="Horacio’s Workshop" id="ID_CUST_TACTICAL_HARNESS">
 		<description>
-			<p>This scope and lens created by the halfling inventor Horacio provides it's wearer with advantage on a ranged attack if they first use a full round action scoping it</p>
-		</description>
-		<setters>
-			<set name="category">Wondrous Items</set>
-			<set name="type">Wondrous Item</set>
-			<set name="rarity">Uncommon</set>
-		</setters>
-	</element>
-	
-	<element name="Eagle Eye" type="Magic Item" source="Horacio’s Workshop" id="ID_CUST_EAGLE_EYE">
-		<description>
-			<p>This leather harness created by the halfling inventor Horacio provides it's wearer with advantage on checks made when climbing down as it supports it's wearer and gives many point on which to fix ropes and tools</p>
+			<p>This leather harness created by the halfling inventor Horacio provides it's wearer with advantage on checks made when climbing down as it supports it's wearer and gives many point on which to fix ropes and tools, it also increases the load bearing capacity of the wearer by better distributing the weight</p>
+			<p>Quality characteristics:</p>
+			<ul>
+				<li>Prototype: 5% more weight capacity</li>
+				<li>Finished: 10% more weight capacity</li>
+				<li>Masterwork: 15% more weight capacity</li>
+			</ul>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
