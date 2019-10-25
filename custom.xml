@@ -3,7 +3,7 @@
 	<info>
 		<name>Custom Items</name>
 		<description></description>	
-		<update version="0.2.1">
+		<update version="0.2.2">
 			<file name="custom.xml" url="https://raw.githubusercontent.com/ifiszer/caerodorTrove/master/custom.xml" />
 		</update>	
 	</info>
@@ -535,21 +535,32 @@
 	
   <element name="Scribe Spells" type="Option" source="Custom" id="ID_CUST_OPTION_SCRIBE_SPELLS">
     <description>
-      <p>Add 90 optional spell slots for the wizard.</p>
+      <p>Add 5 optional spell slots for the wizard per level.</p>
     </description>
     <sheet>
-      <description>Add 90 optional spell slots for the wizard.</description>
+      <description>Add 5 optional spell slots for the wizard per level.</description>
     </sheet>
     <rules>
-      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="1" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
-      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="2" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
-      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="3" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
-      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="4" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
-      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="5" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
-      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="6" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
-      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="7" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
-      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="8" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
-      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="9" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="1" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="2" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="3" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="4" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="5" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="6" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="7" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="8" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="9" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="10" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="11" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="12" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="13" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="14" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="15" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="16" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="17" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="18" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="19" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="20" number="5" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
     </rules>
   </element>
 
