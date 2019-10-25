@@ -3,7 +3,7 @@
 	<info>
 		<name>Custom Items</name>
 		<description></description>	
-		<update version="0.2.0">
+		<update version="0.2.1">
 			<file name="custom.xml" url="https://raw.githubusercontent.com/ifiszer/caerodorTrove/master/custom.xml" />
 		</update>	
 	</info>
@@ -531,6 +531,26 @@
       <set name="isConcentration">false</set>
       <set name="isRitual">false</set>
     </setters>
+  </element>
+	
+  <element name="Scribe Spells" type="Option" source="Custom" id="ID_CUST_OPTION_SCRIBE_SPELLS">
+    <description>
+      <p>Add 90 optional spell slots for the wizard.</p>
+    </description>
+    <sheet>
+      <description>Add 90 optional spell slots for the wizard.</description>
+    </sheet>
+    <rules>
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="1" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="2" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="3" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="4" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="5" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="6" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="7" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="8" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <select type="Spell" name="Scribe Spell (Wizard)" supports="Wizard" level="9" number="10" optional="true" spellcasting="Wizard" requirements="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+    </rules>
   </element>
 
 </elements>
